@@ -1,0 +1,14 @@
+Revision history for Params-Validate-Aggregated
+
+0.03
+
+* rename everything (again!) to Params::Validate::Aggregated::pv_disagg.
+
+0.02
+
+* change name of validate_agg to deagg_pars, as the former implies that
+  validation was occuring, which it is not
+
+0.01
+
+* Initial release.
