@@ -1,5 +1,9 @@
 Revision history for Params-Validate-Aggregated
 
+0.04
+
+* Makefile.PL: wrong license, missing requirement on parent module
+
 0.03
 
 * rename everything (again!) to Params::Validate::Aggregated::pv_disagg.

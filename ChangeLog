@@ -1,4 +1,19 @@
-2011-01-08 19:01 -0500  djerius  <djerius@cfa.harvard.edu>  (30f069cc1724 [tip])
+2011-01-13 12:25 -0500  djerius  <djerius@cfa.harvard.edu>  (1529d1c78fae [tip])
+
+	* Makefile.PL:
+	wrong license; add requirement on parent module
+
+2011-01-08 19:08 -0500  djerius  <djerius@cfa.harvard.edu>  (99702af96daa)
+
+	* .hgtags:
+	Added tag 0.03 for changeset 61ca9c886ebb
+
+2011-01-08 19:08 -0500  djerius  <djerius@cfa.harvard.edu>  (61ca9c886ebb [0.03])
+
+	* ChangeLog, Changes, README, lib/Params/Validate/Aggregated.pm:
+	update version and logs for release
+
+2011-01-08 19:01 -0500  djerius  <djerius@cfa.harvard.edu>  (30f069cc1724)
 
 	* lib/Params/Validate/Aggregated.pm: new file.
 	* lib/Params/Validate/Aggregate.pm: deleted file.

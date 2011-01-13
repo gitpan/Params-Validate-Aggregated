@@ -11,7 +11,7 @@ configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
 generated_by: 'Module::Install version 1.00'
-license: gpl
+license: gpl3
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
@@ -23,6 +23,7 @@ no_index:
 requires:
   Data::Alias: 0
   Params::Validate: 0
+  parent: 0
 resources:
-  license: http://opensource.org/licenses/gpl-license.php
-version: 0.03
+  license: http://opensource.org/licenses/gpl-3.0.html
+version: 0.04
