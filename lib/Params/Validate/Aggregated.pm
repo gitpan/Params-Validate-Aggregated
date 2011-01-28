@@ -36,7 +36,7 @@ use Carp;
 
 ## no critic (ProhibitAccessOfPrivateData)
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 sub DESTROY {}
 
@@ -140,7 +140,7 @@ sub pv_disagg {
         {
             $allow_extra++;
 
-            alias { (%fargs) = (%upar) };
+            alias +(%fargs) = (%upar);
             while ( my ( $par, $spec ) = each %$specs )
             {
                 my $npar = $normf ? $normf->($par) : $par;

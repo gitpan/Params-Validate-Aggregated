@@ -1,4 +1,20 @@
-2011-01-13 12:25 -0500  djerius  <djerius@cfa.harvard.edu>  (1529d1c78fae [tip])
+2011-01-28 12:04 -0500  djerius  <djerius@cfa.harvard.edu>  (bedfbb1dcd5d [tip])
+
+	* lib/Params/Validate/Aggregated.pm:
+	perl >= 5.12 doesn't like the alias {} syntax; provided work around
+	until that's fixed
+
+2011-01-13 12:28 -0500  djerius  <djerius@cfa.harvard.edu>  (e1fdf87cb9dd)
+
+	* .hgtags:
+	Added tag 0.04 for changeset a391a03ddffe
+
+2011-01-13 12:28 -0500  djerius  <djerius@cfa.harvard.edu>  (a391a03ddffe [0.04])
+
+	* ChangeLog, Changes, lib/Params/Validate/Aggregated.pm:
+	update logs and version for release
+
+2011-01-13 12:25 -0500  djerius  <djerius@cfa.harvard.edu>  (1529d1c78fae)
 
 	* Makefile.PL:
 	wrong license; add requirement on parent module
